@@ -19,7 +19,6 @@ parser.add_argument('-s', '--sub', help='Subdomain Enumiration')
 parser.add_argument('-p', '--port', help='Port scanning using nmap')
 parser.add_argument('-b', '--banner', help='Banner Grabbing using nmap')
 parser.add_argument('-t', '--techdetect', help='Detecting technologies')
-parser.add_argument('--output', help='Save output to file')
 args = parser.parse_args()
 
 # WHOIS
